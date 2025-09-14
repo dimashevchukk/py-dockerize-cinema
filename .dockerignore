@@ -5,8 +5,12 @@
 .DS_Store
 venv/
 .pytest_cache/
-**__pycache__/
-**db.sqlite3
+__pycache__/
+*.pyc
+build/
+*.egg-info/
+.tox/
+pip-wheel-metadata/
 media
 .gitignore
 .github
